@@ -2,3 +2,20 @@ html, body {
   padding: 0;
   margin: 0;
 }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+
+}
+
+li {
+  background-color: steelblue;
+  color: #fff;
+  padding: 3px;
+  margin: 3px;
+  width: calc(10% - 12px);
+}
